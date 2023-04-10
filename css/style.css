@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+}
+
+.container{
+    padding-right: 13%;
+    padding-left: 13%;
+}
+
+/* header styles */
+
+header{
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+header h2{
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+header ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+header ul a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+/* main layout */
+
+main{
+    background-color: #1F2937;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+}
+main>*{
+    width: 50%;
+}
+main section:nth-child(1){
+    padding-right: 7%;
+}
+main section+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main img{
+    max-width: 100%;
+    height: auto;
+}
+main h1{
+    color:#F9FAF8;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+main p{
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 0;
+    padding: 10px 0;
+}
+main button{
+    background-color: #3882F6;
+    color: white;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 11px 34px;
+    border: none;
+}
+
+/* info section layout  */
+#info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+#info h2{
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    padding: 10px 0;
+}
+#info div{
+    display: flex;
+    flex-direction: column;
+    width: 21%;
+    text-align: center;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+#info img{
+    width: 200px;
+    margin: auto;
+}
+
+/* quote layout */
+
+#quote{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding-top: 120px ;
+    padding-bottom: 120px;
+}
+#quote p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+}
+#quote figcaption{
+    text-align: end;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* signup section layout */
+
+#signup{
+    padding: 80px;
+}
+#signup > div {
+    background-color: #3882F6;
+    color: white;
+    padding: 40px 120px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#signup > div > div {
+    width: 65%;
+}
+#signup h5{
+    margin: 0;
+    padding: 5px 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+#signup p{
+    margin: 0;
+    font-size: 18px;
+}
+#signup button{
+    background-color: #3882F6;
+    color: white;
+    border: 2px white solid;
+    border-radius: 7px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 7px 31px;
+}
+
+/* footer layout */
+
+footer{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding: 20px;
+    font-size: 18px;
+}
+
+
+
+
+
